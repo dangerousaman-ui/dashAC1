@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: drone-network-mission-dashboard-v4-satellite
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
